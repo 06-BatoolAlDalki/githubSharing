@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <div>
           <h2>hello hala</h2>
-            <h2>hello from another mac</h2>
+            <p>this text is added now</p>
         </div>
     </form>
 </body>
