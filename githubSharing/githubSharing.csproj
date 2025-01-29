@@ -71,6 +71,7 @@
     <Content Include="batool\batool.aspx" />
     <Content Include="habib\habib.aspx" />
     <Content Include="hala\hala.aspx" />
+    <Content Include="hala\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="hala\hala.aspx.designer.cs">
       <DependentUpon>hala.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hala\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hala\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
