@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="ammar\ammar.aspx" />
     <Content Include="batool\batool.aspx" />
+    <Content Include="Farah\login.aspx" />
     <Content Include="habib\habib.aspx" />
     <Content Include="hala\hala.aspx" />
     <Content Include="Suleiman\login.aspx" />
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="batool\batool.aspx.designer.cs">
       <DependentUpon>batool.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Farah\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Farah\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="habib\habib.aspx.cs">
       <DependentUpon>habib.aspx</DependentUpon>
